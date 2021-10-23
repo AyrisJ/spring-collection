@@ -8,6 +8,6 @@ public class HelloServiceImpl implements HelloService {
 
     @Override
     public void helloAround() {
-        System.out.println("helloAround is invoked !");
+        System.out.println("helloAround method is invoked !");
     }
 }
