@@ -19,4 +19,6 @@ public class HelloServiceTest {
         HelloService helloService = (HelloService) proxyFactory.getProxy();
         helloService.helloAround();
     }
+
+
 }

@@ -2,7 +2,6 @@ package com.ayris.aopboot.controller;
 
 import com.ayris.aopboot.service.HelloService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.cglib.core.DebuggingClassWriter;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
