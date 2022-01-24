@@ -10,6 +10,10 @@ import org.springframework.stereotype.Service;
 @Service
 public class Login2ServiceImpl implements Login2Service {
 
+    public Login2ServiceImpl() {
+        log.info("Login2ServiceImpl create---------");
+    }
+
     @Autowired
     private Login1Service login1Service;
 

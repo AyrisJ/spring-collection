@@ -8,6 +8,10 @@ import org.springframework.stereotype.Service;
 @Service
 public class HelloServiceImpl implements HelloService {
 
+    public HelloServiceImpl() {
+        log.info("HelloServiceImpl create------");
+    }
+
     @Override
     public String sayHello() {
         return "hello";
